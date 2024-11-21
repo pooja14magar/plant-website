@@ -1,0 +1,36 @@
+# Node modules (if you're using npm/yarn for Tailwind or other dependencies)
+node_modules/
+
+# Tailwind's build output (if using a build tool like PostCSS)
+dist/
+build/
+
+# Temporary files and logs
+*.log
+*.tmp
+*.temp
+
+# OS-generated files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+desktop.ini     # Windows
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp          # vi/vim swap files
+*.swo          # vi/vim swap files
+*.sublime-workspace
+*.sublime-project
+
+# Package manager lock files (optional, depending on your workflow)
+# Uncomment below if you don't want to include them
+# yarn.lock
+# package-lock.json
+
+# Tailwind config artifacts
+tailwind.config.js.backup
+
+# Files related to build tools (optional)
+*.cache
+.cache/
